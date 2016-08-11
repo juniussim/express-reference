@@ -6,4 +6,4 @@ var app = express();
 app.listen(7000);
 module.exports = app;
 
-console.log('My express server is running at localhsot:7000');
+console.log('My express server is running at localhost:7000');
