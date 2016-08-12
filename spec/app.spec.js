@@ -10,7 +10,6 @@ var contact_url = base_url + 'contact';
 //   done();
 // }
 
-
 describe("Express Server API", function() {
   describe("should return users json on get /users", function() {
       it("returns status code 200", function(done) {
@@ -20,7 +19,7 @@ describe("Express Server API", function() {
           .expect(200, done);
       });
 
-      xit("returns a correct json format", function(done) {
+      it("returns a correct json format", function(done) {
         supertest(app)
           .get('/users')
           .expect({

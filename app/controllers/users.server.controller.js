@@ -1,16 +1,6 @@
 module.exports = {
   index: function(req, res) {
     var response
-
-    var members_list = [
-      {
-
-      },
-      {
-        
-      }
-    ]
-
     res.json([
       {
         name: 'junius',
